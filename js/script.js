@@ -7,8 +7,12 @@
 	and alerts the user what the sum is.
 */ 
 
+
+	
 function addition() {
-	// your code goes here!
+	var a1 = parseFloat(document.getElementById('additionInput1').value);
+	var a2 = parseFloat(document.getElementById('additionInput2').value);
+	alert(a1 + a2);
 }
 
 /* --------------------------------------------------------- */
